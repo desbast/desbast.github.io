@@ -1,19 +1,21 @@
 html {
-  color: #ffffff;
-  font-size: 1em;
-  font-family: courier new; 
-  line-height: 1.4;
+  
   
 }
 
 body {
+  color: #ffffff;
+  font-size: 1em;
+  font-family: courier new; 
+  line-height: 1.4;
   background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
 }
 
-  
-  
-  
-}
+.container {
+	width:60%;
+	margin:auto;
+	overflow:hidden; 
+  }
 
 /*
  * Remove text-shadow in selection highlight:
