@@ -36,10 +36,9 @@ header a{
 	
 	
 }
-a:hover{
+header a:hover{
 	color: rgb(255, 122, 89) ;
 	background-color: #ffffff;
-	transform: skew (-10deg) ;
 }
 
 header ul{
@@ -53,12 +52,53 @@ header li{
 	padding: 25px 20px 20px 25px 
 }
 
-header .highlight, header .current a{
+header .highlight{
 	color:#ffffff;
 	font-size: 11pt;
 	padding-top: 230px;
 	
 }
+header .current a{
+	text-shadow: 1.3px 1px .5px rgb(255, 122, 89);
+}
+
+/*showcase*/ 
+
+#showcase{
+	
+}
+
+/*newsletter*/
+
+#submitform{
+	padding: 15px;
+	color: #ffffff;
+	
+}
+
+#submitform h1{
+	float: center-left;
+	text-decoration: underline;
+	font-size: 11pt
+
+}
+
+#submitform form{
+	float: center-right;
+	color: red;
+}
+
+#submitform .container{
+	float: left;
+	margin-bottom: 120px
+}
+
+
+
+
+
+
+
 
 
 
