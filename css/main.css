@@ -34,7 +34,7 @@ body {
 	border-style: dotted;
 	border-width: medium;
 	color: white;
-	border-radius: 50%
+	border-radius: 50%;
 	
 }
 
@@ -95,6 +95,7 @@ header .current a{
 	padding: 15px;
 	color: #ffffff
 	postition: center;
+	margin:right;
 	
 }
 
@@ -118,7 +119,7 @@ header .current a{
 #submitform input[type="email"]{
 	padding:4px;
 	height:25px;
-	width:250px;
+	width:100px;
 	background-color: transparent;
 	border-style: dotted;
 	border-width: medium;
@@ -132,7 +133,7 @@ header .current a{
 #submitform input[type="text"]{
 	padding:4px;
 	height:25px;
-	width:250px;
+	width:50px;
 	background-color: transparent;
 	border-style: dotted;
 	border-width: medium;
@@ -140,6 +141,7 @@ header .current a{
 	color: white;
 	color: white;
 	outline: none !important;
+	text-justify: top-left;
     
 	
 	
