@@ -16,13 +16,34 @@ body {
 	width:60%;
 	margin:auto;
 	overflow:hidden; 
+	border:1px solid transparent;
+	
+
   }
+  
+.test{border: 1px solid transparent;}
+.container focus{
+  outline: 0px none;
+  border-color: #000000;
+ }
+.button1{
+	height: 38px;
+	background: #ffffff;
+	background-color: transparent;
+	border-color: white;
+	border-style: dotted;
+	border-width: medium;
+	color: white;
+	border-radius: 50%
+	
+}
 
 /*header*/ 
 header{ 
 	padding-top: 40px;
 	min-height: 70px;
 	text-align: center;
+	
 	
 	
 }
@@ -72,7 +93,8 @@ header .current a{
 
 #submitform{
 	padding: 15px;
-	color: #ffffff;
+	color: #ffffff
+	postition: center;
 	
 }
 
@@ -89,13 +111,79 @@ header .current a{
 }
 
 #submitform .container{
-	float: left;
+	float: right;
 	margin-bottom: 120px
+}
+
+#submitform input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+	background-color: transparent;
+	border-style: dotted;
+	border-width: medium;
+	border-color: #ffffff;
+	color: white;
+	outline: none;
+	
+	
+}
+
+#submitform input[type="text"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+	background-color: transparent;
+	border-style: dotted;
+	border-width: medium;
+	border-color: #ffffff;
+	color: white;
+	color: white;
+	outline: none !important;
+    
+	
+	
 }
 
 
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: white;}
+
+#boxes{
+	
+}
+
+
+header img{
+	float:center-bottom;
+	width:70%
+	margin-left:autopx;
+	margin-right:auto;
+	max-width: 40%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	padding:
+	position:relative
+}
+
+footer{
+	padding:2px;
+	margin-top:2px;
+	color: white;
+	text-align: right;
+	float:left;
+}
+/*boxes*/
 
 
 
