@@ -37,18 +37,21 @@ h1{
   border-color: #000000;
  }
 .button1{
-	height: 25px;
+	height: 4.5vh;
 	background: #ffffff;
 	background-color: transparent;
 	border-color: white;
 	border-style: dotted;
-	border-width: medium;
+	border-width: medium-thin;
 	color: white;
-	border-radius: 50%;
-	font-size: 8pt;
+	border-radius: 40%;
+	font-size: 2vh;
 	
 }
-
+.button1:hover{
+	background-color:red;
+	cursor: crosshair;
+}
 /*header*/ 
 header{ 
 	padding-top: 10px;
@@ -72,6 +75,7 @@ header a{
 	
 	
 }
+
 header a:hover{
 	color: rgb(255, 122, 89) ;
 	background-color: #ffffff;
@@ -85,12 +89,12 @@ header ul{
 header li{
 	float: center;
 	display: inline;
-	padding: 25px 20px 20px 25px 
+	padding: 1vh 1vh 1vh 1vh 
 }
 
 header .highlight{
 	color:#ffffff;
-	font-size: 11pt;
+	font-size: 2vh;
 	padding-top: 230px;
 	
 }
@@ -117,7 +121,7 @@ header .current a{
 #submitform h1{
 	float: right;
 	text-decoration: italic;
-	font-size: 11pt;
+	font-size: 2.5vh;
 	position:fixed;
 	right: 8px;
 	bottom: 25px;
@@ -132,12 +136,13 @@ header .current a{
 	bottom: 4px;
 	
 	
+	
 }
 
 #submitform .container{
 	float: right;
 	margin-bottom: 120px
-	padding-left:900px;
+	
 	
 	
 }
