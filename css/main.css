@@ -18,6 +18,7 @@ body {
 	overflow:hidden; 
 	border:1px solid transparent;
 	
+	
 
   }
   
@@ -119,11 +120,15 @@ header .current a{
 	right: 8px;
 	bottom: 4px;
 	
+	
 }
 
 #submitform .container{
 	float: right;
 	margin-bottom: 120px
+	padding-left:900px;
+	
+	
 }
 
 #submitform input[type="email"]{
@@ -359,11 +364,14 @@ footer{
 	color: white;
 	text-align: center-right;
 	float:center;
-	font-size:10pt;
+	font-size:x-small;
 	position:fixed;
 	left: 8px;
 	bottom: 0px;
-	max-
+	padding-right:200px;
+	max-width: 120%;
+	margin-right:40%;
+	
 	
 }
 /*boxes*/
