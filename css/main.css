@@ -8,9 +8,9 @@ body {
   font-size: 2vh;
   font-family:courier new; 
   line-height: 1.4;
-  background-image:url(../img/eboyart4.png);
-  background-image: linear-gradient(to bottom right, black, black, #0C9662, black, black, black, black);
-  background-size:auto;
+  background-image:url(../img/hehe22.jpg);
+  background-image linear-gradient(to bottom right, black, black, black, black, #0C9662, black, black, black, black, black);
+  background-size:5vh;
   border-color:#0C9662;
   border-width:10px;
 }
@@ -142,6 +142,7 @@ header .current a{
 #submitform .container{
 	float: right;
 	margin-bottom: 120px
+	padding:1vh,1vh,1vh,1vh;
 	
 	
 	
