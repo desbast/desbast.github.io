@@ -43,7 +43,7 @@ function showSlides() {
 }
 
 // autoplay slides
-let timer = 15; // sec
+let timer = 6; // sec
 const _timer = timer;
 
 setInterval(() => {
