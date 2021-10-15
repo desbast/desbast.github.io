@@ -6,7 +6,7 @@ html {
 body {
   color: #ffffff;
   font-size: 2vh;
-  font-family:courier new; 
+  font-family:belleza-regular; 
   line-height: 1.4;
   background-image:url(../img/hehe22.jpg);
   background-image linear-gradient(to bottom right, black, black, black, black, #0C9662, black, black, black, black, black);
@@ -30,7 +30,13 @@ h1{
 	
 
   }
- 
+  
+@font-face{
+	font-family: belleza-regular;
+	src:url(../img/Belleza-Regular.ttf);
+	font-weight: bold;
+	
+}
   
 .test{border: 1px solid transparent;}
 .container focus{
@@ -336,7 +342,7 @@ header .current a{
 }
 
 .xop-grid h3 {
-	font-family: 'courier', cursive ;
+	font-family: courier;
 	font-weight: 300;
 	color: white;
 	font-size: 10px;

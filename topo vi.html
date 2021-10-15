@@ -91,7 +91,27 @@
 	
 	<section id="container">
 		<div class="work-description">
-			<p> itthis was a stitthis was a study done fore profitthis was a study done fore profitthis was a study done fore profitthis was a study done fore profitthis was a study done fore profitthis was a study done fore profitthis was a study done fore profit</p>
+			<p> The following maps were generated as a part of a large-print-series. For sale are large cartographic prints spanning a specific section of topography in the Pacific North-West. The source data was extracted from a Digital Elevation Model (DEM) database maintained by the government of British Columbia. In all, 178 DEM scan files were sourced to compile Vancouver Island, and then stitched together using a mosaicking tool within a mapping analytics software. The master
+DEM now created from the 178 scans was then put through
+a sink fill process, removing any smaller dataset imperfections. The result of this was then put through a flow-direction
+render, assigning values to individual data cells pertaining to
+their respective steepest downslope neighbor. This output
+was then fed through a flow accumulation process, rendering
+a rather beautiful raster that indicates accumulation points.
+The accumulation raster was then ran through a single
+output map-algebra equation that defined the river network
+as having a 3000 flow accumulation unit cut-off. This could
+have ranged any number between 0-10000, however in
+this case, 3000 made the most sense visually to delineate
+between ocean and river. This was probably the most tedious
+selection to make in the process, as Vancouver Island is quite
+porous, with many inlets blurring the lines between river and
+ocean.
+The output was then classified to a 6 part Strahler stream
+order, separating the assumed flows into categories that
+can then descend visually. This was then converted into
+vector graphics, ensuring a tidy print made up of operable
+components. WIP: a client has requested a mounted 3d-print of Vancouver Island. More on this to come! </p>
 		</div>
 	</section>
 	
