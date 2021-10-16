@@ -30,7 +30,11 @@ h1{
 	
 
   }
-  
+ 
+ .giffy{
+	 
+	 width: 3000px;
+ }
 @font-face{
 	font-family: belleza-regular;
 	src:url(../img/Belleza-Regular.ttf);
@@ -505,7 +509,7 @@ footer{
   border-radius: .1vh;
   overflow: scroll;
   max-width: 100vh;
-  max-height: 50vh;
+  max-height: 100vh;
   position: relative;
   box-shadow: 0 0 0 .2vh white;
   margin: 1vh 5vh;
