@@ -31,10 +31,8 @@ h1{
 
   }
  
- .giffy{
-	 
-	 width: 3000px;
- }
+
+  
 @font-face{
 	font-family: belleza-regular;
 	src:url(../img/Belleza-Regular.ttf);
@@ -399,11 +397,34 @@ a:hover, a:visited, a:link, a:active
 ::-ms-input-placeholder { /* Microsoft Edge */
 color: white;}
 
-#boxes{
+#boxes {
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:5vh;
+	margin-left:40vh;
+	margin-right:40vh;
+	overflow:hidden; 
+	border:1px solid transparent;
 	
 }
 
+#boxes img{
+	object-fit: scale-down;
+	width: 90vh;
+	height:auto;
+	position:absolute;
+	border: ;
+	
+}
 
+#boxes img:hover{
+	background-image: url(../img/lightning.png);
+	background-repeat: no-repeat;
+	background-size: 14vh;
+	background-position: 18% 0%;
+	
+}
 
 
 
@@ -633,9 +654,6 @@ footer{
    transition: 2s;
   }
 }
-
-
-
 
 
 
