@@ -114,7 +114,9 @@ header .current a{
 
 /*showcase*/ 
 
-#showcase{
+#showcase img{
+	margin-left:110vh;
+	width:60vh;
 	
 }
 
@@ -402,10 +404,11 @@ color: white;}
 	height:auto;
 	margin:auto;
 	margin-top:5vh;
-	margin-left:40vh;
+	margin-left:4vh;
 	margin-right:40vh;
 	overflow:hidden; 
 	border:1px solid transparent;
+	position:left;
 	
 }
 
