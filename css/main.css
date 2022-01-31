@@ -8,9 +8,8 @@ body {
   font-size: 2vh;
   font-family:belleza-regular; 
   line-height: 1.4;
-  background-image:url(../img/hehe22.jpg);
-  background-image linear-gradient(to bottom right, black, black, black, black, #0C9662, black, black, black, black, black);
-  background-size:5vh;
+  background: linear-gradient(135deg, purple 60%, gray);
+  background-attachment: fixed;
   border-color:#0C9662;
   border-width:10px;
 }
@@ -342,6 +341,21 @@ header .current a{
 }
 
 .xop-img-4 hover{
+	opacity: 1.0;
+}
+
+.xop-img-5 {
+	background-image:
+	url(../img/changedgraphic.png);
+	opacity: 0.6;
+	background-position: center;
+	background-size: cover;
+	
+	
+	
+}
+
+.xop-img-5 hover{
 	opacity: 1.0;
 }
 
